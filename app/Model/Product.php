@@ -10,6 +10,6 @@ class Product extends Model
     //relacion con reviews
     public function reviews(){
 
-        return $this->hasMany(Review::class);
+        return $this->hasMany(Review::class);   
     }
 }
