@@ -7,6 +7,11 @@ use App\Model\Review;
 
 class Product extends Model
 {
+protected $fillable = [
+
+    'name', 'detail', 'stock', 'price', 'discount'
+];
+
     //relacion con reviews
     public function reviews(){
 
